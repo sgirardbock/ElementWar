@@ -192,7 +192,7 @@ class GameView(
         }
 
         for (i in 1..cases.size){
-            cases[i].drawIndex = i
+            cases[i-1].drawIndex = i
         }
 
         maxDrawIndex = cases.size
